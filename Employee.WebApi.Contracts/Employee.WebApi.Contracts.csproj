@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <Description>The contracts of Employee WebApi</Description>
+	  <Version>1.0.0</Version>
+	  <LangVersion>latestmajor</LangVersion>
+	  <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+	
+<PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+	
+<ItemGroup>
+  <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+</ItemGroup>
+
+</Project>
